@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+   
+    <title>Auth Form</title>
+</head>
+<body>
+  
+       
+
+        <form>
+            <h2>Firebase Auth</h2>
+        
+            <label for="email">Name:</label>
+            <input type="name" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="pass" name="password" required>
+        
+            <button href ="" type="button" onclick="signupcel()">Sign Up</button>
+            <button href ="" type="button" onclick="login()">Login</button>
+            <button href ="" type="button" onclick="craetedata()">data</button>
+            <button href ="" type="button" onclick="readdata()">Read_data</button>
+            <button href ="" type="button" onclick="Deletedata()">Delete</button>
+            <button href ="" type="button" onclick="Updatedata()">Update</button>
+        </form>
+        
+
+            
+    <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js"></script> -->
+   <script src="connect.js"></script>
+</body>
+</html>
